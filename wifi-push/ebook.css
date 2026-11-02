@@ -1,0 +1,20 @@
+/* Reflowable EPUB: let KOReader choose font size and light/dark palette. */
+html { -webkit-text-size-adjust: 100%; }
+body { line-height: 1.65; margin: 0 4%; overflow-wrap: break-word; }
+p { margin: 0.65em 0; orphans: 2; widows: 2; }
+h1, h2, h3, h4 { line-height: 1.35; margin: 1.35em 0 0.7em; page-break-after: avoid; }
+h1 { font-size: 1.65em; } h2 { font-size: 1.35em; } h3 { font-size: 1.15em; }
+img, svg { max-width: 100%; height: auto; object-fit: contain; }
+figure { margin: 1em 0; text-align: center; }
+figcaption { font-size: 0.85em; margin-top: 0.4em; }
+blockquote { margin: 1em 0; padding: 0.15em 0.8em; border-left: 0.2em solid #888; }
+ul, ol { padding-left: 1.5em; } li { margin: 0.35em 0; }
+table { border-collapse: collapse; width: 100%; table-layout: fixed; font-size: 0.9em; margin: 1em 0; }
+th, td { border: 1px solid #888; padding: 0.4em; vertical-align: top; overflow-wrap: anywhere; word-wrap: break-word; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; word-wrap: break-word; font-size: 0.82em; line-height: 1.45; padding: 0.7em; border: 1px solid #aaa; }
+code { font-family: monospace; overflow-wrap: anywhere; }
+pre code { white-space: pre-wrap; }
+a { text-decoration: underline; }
+hr { border: 0; border-top: 1px solid #999; margin: 1.5em 0; }
+.footnotes { font-size: 0.9em; }
+.task-list-item { list-style-type: none; }

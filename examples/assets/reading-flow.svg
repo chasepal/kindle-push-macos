@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <rect width="800" height="220" fill="white"/>
+  <g fill="none" stroke="#333" stroke-width="4">
+    <rect x="35" y="55" width="190" height="110" rx="12"/>
+    <rect x="305" y="55" width="190" height="110" rx="12"/>
+    <rect x="575" y="55" width="190" height="110" rx="12"/>
+    <path d="M240 110h50m-16-14 16 14-16 14M510 110h50m-16-14 16 14-16 14"/>
+  </g>
+  <g fill="#111" font-family="sans-serif" font-size="28" text-anchor="middle">
+    <text x="130" y="120">Markdown</text><text x="400" y="120">EPUB</text><text x="670" y="120">Kindle</text>
+  </g>
+</svg>

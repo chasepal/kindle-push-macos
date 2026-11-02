@@ -1,0 +1,20 @@
+.DS_Store
+.build/
+.swiftpm/
+dist/
+release/
+__pycache__/
+*.pyc
+.venv/
+*.epub
+*.zip
+*.log
+# Never publish pairing material, device backups, or personal documents.
+id_ed25519*
+authorized_keys
+known_hosts*
+config.json
+backups/
+installation-state.json
+installed-manifest.json
+.env*
